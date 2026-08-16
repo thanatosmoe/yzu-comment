@@ -6,7 +6,7 @@
 
 ## 功能特性
 
-- 自动登录统一认证（sso.yzu.edu.cn），账号密码在命令行输入，不落盘
+- 自动登录统一认证（sso.yzu.edu.cn）
 - 支持外网（WebVPN）与内网（校园网直连）两种访问方式
 - 获取评测任务列表，区分待评估 / 已评估
 - 自动作答：单选题选第一个选项（通常为 A_完全符合），多选题全部勾选
@@ -32,7 +32,7 @@
 ## 安装
 
 ```bash
-git clone https://github.com/<your-name>/yzu-comment.git
+git clone https://github.com/thanatosmoe/yzu-comment.git
 cd yzu-comment
 
 python -m venv .venv
@@ -54,8 +54,6 @@ python -m playwright install chromium
 ```
 
 - `comment_template`：主观评价题的填写内容
-- 账号密码不写入文件，每次运行时在命令行输入
-- `config.json` 已被 `.gitignore` 忽略，不会提交到仓库
 
 ## 使用
 
