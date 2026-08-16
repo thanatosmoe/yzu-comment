@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+config.json
+cookies.json
+session_info.json
+*.html
+*.js
+*.json
+!requirements.txt
+!*.py
